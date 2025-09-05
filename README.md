@@ -173,4 +173,4 @@ Expandable command set
 
 Author
 ---
-Made with 🖤 by [cmdkill3r](https://github.com/cmdkill3r
+Made with 🖤 by [cmdkill3r](https://github.com/cmdkill3r)
