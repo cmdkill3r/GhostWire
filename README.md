@@ -68,7 +68,7 @@ Usage
 ---
 Run the bot:
 ```
-python ghostwire.py
+python main.py
 ```
 
 Once running, control it via your Telegram bot using the commands below.
@@ -107,7 +107,7 @@ pip install pyinstaller
 Build the executable
 ---
 ```
-pyinstaller --onefile --noconsole ghostwire.py
+pyinstaller --onefile --noconsole main.py
 ```
 
 Add to Startup(Optional)
@@ -124,7 +124,7 @@ Repo Structure
 ---
 ```
 GhostWire/
-│── ghostwire.py      # Main bot script
+│── main.py      # Main bot script
 │── config.py         # Bot token & chat ID (excluded from git)
 │── requirements.txt  # Dependencies
 │── README.md         # This file
