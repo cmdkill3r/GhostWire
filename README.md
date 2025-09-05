@@ -45,25 +45,34 @@ Run example
 Installation
 -
 # Clone the repository
-```bash
+
+```
 git clone https://github.com/cmdkill3r/GhostWire.git
 cd GhostWire
+```
 
 Install dependencies
+---
+```
 pip install -r requirements.txt
+```
 
 Create your config file
-
+-
+```
 # config.py
 TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
 CHAT_ID = "YOUR_TELEGRAM_CHAT_ID"
+```
 Usage
+---
 Run the bot:
-
-
+```
 python ghostwire.py
+```
 
 Once running, control it via your Telegram bot using the commands below.
+---
 
 Telegram Commands
 Command Action
@@ -84,15 +93,23 @@ Command Action
 /help Show help menu
 
 Persistence (Windows EXE)
+-
 
 Install PyInstaller
+-
+```
 pip install pyinstaller
+```
 
 
 Build the executable
+---
+```
 pyinstaller --onefile --noconsole ghostwire.py
+```
 
 Add to Startup(Optional)
+-
 
 Press Win + R → type shell:startup
 
@@ -100,20 +117,22 @@ Place your ghostwire.exe inside that folder
 
 Now GhostWire runs silently at system startup.
 
+--
 Repo Structure
-bash
-Copy code
+---
+
 GhostWire/
 │── ghostwire.py      # Main bot script
 │── config.py         # Bot token & chat ID (excluded from git)
 │── requirements.txt  # Dependencies
 │── README.md         # This file
 │── .gitignore        # Ignore sensitive + generated files
-│── terminal.png
-|   telegram.png     # Screenshots (telegram + terminal)
+│── term.png
+|   tele.png     # Screenshots (telegram + terminal)
 
+---
 Intended Use
--
+---
 GhostWire is provided for educational and personal use only.
 It should not be used for unauthorized surveillance, spying, or violating privacy laws.
 The author is not responsible for misuse.
