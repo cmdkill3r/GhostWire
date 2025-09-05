@@ -1,0 +1,3 @@
+# config.py
+TOKEN = "ADD_YOUR_BOT_TOKEN_HERE"
+CHAT_ID = "ADD_CHAT_ID"
