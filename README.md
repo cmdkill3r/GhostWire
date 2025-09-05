@@ -140,7 +140,6 @@ GhostWire is provided for educational and personal use only.
 It should not be used for unauthorized surveillance, spying, or violating privacy laws.
 The author is not responsible for misuse.
 
--
 
 Dependencies
 -
@@ -168,6 +167,8 @@ Cloud recording storage (optional)
 Multi-device control from one bot
 
 Expandable command set
+
+---
 
 
 Author
