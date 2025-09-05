@@ -1,4 +1,4 @@
-# 👻 GhostWire - Telegram Surveillance Bot
+# GhostWire - Telegram Surveillance Bot
 
 [![Python Version](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
@@ -75,6 +75,7 @@ Once running, control it via your Telegram bot using the commands below.
 ---
 
 Telegram Commands
+```
 Command Action
 /startscreen Start live screen feed
 /stopscreen Stop screen feed
@@ -91,6 +92,7 @@ Command Action
 /fps <n> Set FPS
 /togglemotion Enable/disable motion detection
 /help Show help menu
+```
 
 Persistence (Windows EXE)
 -
@@ -120,7 +122,7 @@ Now GhostWire runs silently at system startup.
 --
 Repo Structure
 ---
-
+```
 GhostWire/
 │── ghostwire.py      # Main bot script
 │── config.py         # Bot token & chat ID (excluded from git)
@@ -129,6 +131,7 @@ GhostWire/
 │── .gitignore        # Ignore sensitive + generated files
 │── term.png
 |   tele.png     # Screenshots (telegram + terminal)
+```
 
 ---
 Intended Use
