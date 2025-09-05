@@ -169,7 +169,6 @@ Multi-device control from one bot
 
 Expandable command set
 
---
 
 Author
 ---
