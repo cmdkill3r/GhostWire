@@ -121,7 +121,6 @@ Now GhostWire runs silently at system startup.
 
 --
 Repo Structure
----
 ```
 GhostWire/
 │── main.py      # Main bot script
