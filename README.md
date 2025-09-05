@@ -119,8 +119,9 @@ Place your ghostwire.exe inside that folder
 
 Now GhostWire runs silently at system startup.
 
---
+
 Repo Structure
+----
 ```
 GhostWire/
 │── main.py      # Main bot script
